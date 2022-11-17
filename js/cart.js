@@ -5,7 +5,6 @@ const cart = () => {
     const goodsContsiner = document.querySelector('.long-goods-list');
     const cartTable = document.querySelector('.cart-table__goods');
     const modalForm = document.querySelector('.modal-form');
-    console.log(modalForm);
 
     const deletCartItem = (id) => {
         const cart = JSON.parse(localStorage.getItem('cart'));
